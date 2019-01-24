@@ -9,6 +9,7 @@ class App < Sinatra::Base
     team_name = params['Team name'] 
     coach = params['Coach']
     pg = params['Point Guard']
+    sg = params['Shooting Guard']
     erb :team
   end
 
