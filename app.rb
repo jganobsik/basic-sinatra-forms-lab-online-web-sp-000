@@ -10,6 +10,9 @@ class App < Sinatra::Base
     coach = params['Coach']
     pg = params['Point Guard']
     sg = params['Shooting Guard']
+    sf = params['Small Forward']
+    pf = params['Power Forward']
+    c = params['Center']
     erb :team
   end
 
